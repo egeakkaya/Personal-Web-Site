@@ -1,0 +1,144 @@
+body{
+  margin: 0; /* to overcome default HTML styling!! */
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #40514E;
+  background-color: #edf4f2;
+}
+
+h1{
+  font-family: 'Inter', cursive;
+  font-size: 5.625rem; /* 16px = 100% = 1em  here want h1 to be 90px dynamic*/
+  margin: 50px auto 0 auto;
+  color: #66BFBF;
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem; /* root em meaning it doesn't inherit from the body(upper class)*/
+  color: #66BFBF;
+  padding-bottom: 10px;
+  font-weight: normal;
+}
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+p{
+  font-size: 1.2rem;
+  line-height: 2;
+  /*color: #40514E;*/
+}
+
+hr{
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #c9d6df;
+  border-width: 5px;
+  width: 5%;
+  margin: 100px auto;
+}
+
+a{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+.top_container{
+  background-color: #cbf1f5;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle_container{
+  /*background-color: #e3fdfd; */
+  background-color: #edf4f2;
+  margin: 100px 0;
+}
+
+.bottom_container{
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+}
+
+.top_cloud{
+position: absolute;
+right: 300px;
+top: 40px;
+}
+
+.bottom_cloud{
+position: absolute;
+left: 200px;
+bottom: 300px;
+}
+
+/*
+.mountain{
+position: relative;
+}*/
+/* top: 5px; */
+
+.intro_paragraph{
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.server_icon{
+  position: relative;
+  width: 25%;
+  float: left;
+  margin-right: 60px;
+  /*padding-top: 50px; */
+}
+
+.chip_icon{
+  position: relative;
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.television_icon{
+  position: relative;
+  width: 25%;
+  float: left;
+  margin-right: 60px;
+  /*padding-top: 50px; */
+}
+
+.contact_img{
+  position: relative;
+  width: 40%;
+}
+
+.contact_me{
+  width: 40%;
+  margin: 40px auto 60px;
+}
+.skill_row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.copyright{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+/*
+<p>I'm a fourth year electrical engineering undergraduate studying at the University of British Columbia.</p>
+<p>My interests lie in the field of software development, embedded development, biotechnology, and music technology.</p>
+<p>I'm also passionate about basketball, soccer, discovering new places, and searching for the next song for my millionth playlist!</p>
+<p>Link to SoundCloud and a page for favorite sports moments and favorite destinations will be added soon!</p>
+*/
